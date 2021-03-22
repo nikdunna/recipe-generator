@@ -24,7 +24,7 @@ async function loadRecipes() {
   return meals;
 }
 function errorHandler(error) {
-  console.log("This item is not found within our recipe list, please try again" + meals);
+  console.log("This item is not found within our recipe list, please try again");
   runMain();
 }
 function runMain() {
