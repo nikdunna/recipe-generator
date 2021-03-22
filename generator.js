@@ -42,4 +42,4 @@ runMain(); //put in a function so it can loop around if necessary
 //tried to handle error via .catch() and try/catch under loadRecipe() callback, did not work, perhaps misused or misplaced
 //tried to handle via callbacks in loadRecipe() when using callback getDataset() and rerouting to errorHandler()
 
-//update, error happens at const { meals } and is fixed with an if(!meals) statement and throw/catch sequence, programs loops to question again if an error is caught
+//update, error happens at const { meals } and is fixed with an if(!meals) statement and throw/catch sequence, program loops to question again if an error is caught
